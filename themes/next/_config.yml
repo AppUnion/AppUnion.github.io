@@ -680,13 +680,13 @@ google_analytics:
   only_pageview: false
 
 # Baidu Analytics
-baidu_analytics: # <app_id>
+baidu_analytics: b4c6c0df76415ca14358f56e0f957de1 # <app_id>
 
 # Growingio Analytics
 growingio_analytics: # <project_id>
 
 # CNZZ count
-cnzz_siteid:
+cnzz_siteid: 1279206925
 
 # Show number of visitors of each article.
 # You can visit https://leancloud.cn to get AppID and AppKey.
@@ -732,7 +732,7 @@ busuanzi_count:
 # Algolia Search
 # For more information: https://www.algolia.com
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 10
   labels:
@@ -743,7 +743,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: true
+  enable: false
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
